@@ -87,7 +87,7 @@ const Hero: React.FC = () => {
       <VideoModal
         isOpen={isVideoModalOpen}
         onClose={() => setIsVideoModalOpen(false)}
-        videoSrc={`${import.meta.env.BASE_URL}assets/product.mp4`}
+        videoSrc="https://drive.google.com/uc?export=download&id=1-bCtzH1Vlif_YlztbgjhppWeVPiwVTbW"
       />
     </div>
   );
