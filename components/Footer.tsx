@@ -22,87 +22,87 @@ const Footer: React.FC = () => {
             </p>
           </div>
 
-          {/* Column 2: Company */}
-          <div>
-            <h4 className="text-xs font-semibold tracking-wider text-gray-200 uppercase mb-6">
-              Company
-            </h4>
-            <ul className="space-y-4 text-sm">
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors duration-200"
-                >
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors duration-200"
-                >
-                  Careers
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors duration-200"
-                >
-                  Newsroom
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors duration-200"
-                >
-                  Investors
-                </a>
-              </li>
-            </ul>
-          </div>
+          {/*/!* Column 2: Company *!/*/}
+          {/*<div>*/}
+          {/*  <h4 className="text-xs font-semibold tracking-wider text-gray-200 uppercase mb-6">*/}
+          {/*    Company*/}
+          {/*  </h4>*/}
+          {/*  <ul className="space-y-4 text-sm">*/}
+          {/*    <li>*/}
+          {/*      <a*/}
+          {/*        href="#"*/}
+          {/*        className="hover:text-white transition-colors duration-200"*/}
+          {/*      >*/}
+          {/*        About Us*/}
+          {/*      </a>*/}
+          {/*    </li>*/}
+          {/*    <li>*/}
+          {/*      <a*/}
+          {/*        href="#"*/}
+          {/*        className="hover:text-white transition-colors duration-200"*/}
+          {/*      >*/}
+          {/*        Careers*/}
+          {/*      </a>*/}
+          {/*    </li>*/}
+          {/*    <li>*/}
+          {/*      <a*/}
+          {/*        href="#"*/}
+          {/*        className="hover:text-white transition-colors duration-200"*/}
+          {/*      >*/}
+          {/*        Newsroom*/}
+          {/*      </a>*/}
+          {/*    </li>*/}
+          {/*    <li>*/}
+          {/*      <a*/}
+          {/*        href="#"*/}
+          {/*        className="hover:text-white transition-colors duration-200"*/}
+          {/*      >*/}
+          {/*        Investors*/}
+          {/*      </a>*/}
+          {/*    </li>*/}
+          {/*  </ul>*/}
+          {/*</div>*/}
 
           {/* Column 3: Solutions */}
-          <div>
-            <h4 className="text-xs font-semibold tracking-wider text-gray-200 uppercase mb-6">
-              Solutions
-            </h4>
-            <ul className="space-y-4 text-sm">
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors duration-200"
-                >
-                  AI Solutions
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors duration-200"
-                >
-                  Product Engineering
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors duration-200"
-                >
-                  Manufacturing Services
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors duration-200"
-                >
-                  Cloud Infrastructure
-                </a>
-              </li>
-            </ul>
-          </div>
+          {/*<div>*/}
+          {/*  <h4 className="text-xs font-semibold tracking-wider text-gray-200 uppercase mb-6">*/}
+          {/*    Solutions*/}
+          {/*  </h4>*/}
+          {/*  <ul className="space-y-4 text-sm">*/}
+          {/*    <li>*/}
+          {/*      <a*/}
+          {/*        href="#"*/}
+          {/*        className="hover:text-white transition-colors duration-200"*/}
+          {/*      >*/}
+          {/*        AI Solutions*/}
+          {/*      </a>*/}
+          {/*    </li>*/}
+          {/*    <li>*/}
+          {/*      <a*/}
+          {/*        href="#"*/}
+          {/*        className="hover:text-white transition-colors duration-200"*/}
+          {/*      >*/}
+          {/*        Product Engineering*/}
+          {/*      </a>*/}
+          {/*    </li>*/}
+          {/*    <li>*/}
+          {/*      <a*/}
+          {/*        href="#"*/}
+          {/*        className="hover:text-white transition-colors duration-200"*/}
+          {/*      >*/}
+          {/*        Manufacturing Services*/}
+          {/*      </a>*/}
+          {/*    </li>*/}
+          {/*    <li>*/}
+          {/*      <a*/}
+          {/*        href="#"*/}
+          {/*        className="hover:text-white transition-colors duration-200"*/}
+          {/*      >*/}
+          {/*        Cloud Infrastructure*/}
+          {/*      </a>*/}
+          {/*    </li>*/}
+          {/*  </ul>*/}
+          {/*</div>*/}
 
           {/* Column 4: Contact */}
           <div>
