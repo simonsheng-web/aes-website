@@ -28,7 +28,7 @@ const GlobalFootprint: React.FC = () => {
           {/* --- SALES SITES (BLUE) --- */}
 
           {/* San Jose, USA */}
-          <div className="absolute left-[14%] top-[22%] group z-10">
+          <div className="absolute left-[14%] top-[27%] group z-10">
             <div className="relative">
               <div className="w-4 h-4 rounded-full bg-blue-600 shadow-lg ring-2 ring-white cursor-pointer hover:scale-125 transition-transform duration-300"></div>
               {/* Tooltip */}
@@ -43,7 +43,7 @@ const GlobalFootprint: React.FC = () => {
           </div>
 
           {/* Atalant, USA */}
-          <div className="absolute left-[24%] top-[27%] group z-10">
+          <div className="absolute left-[24%] top-[32%] group z-10">
             <div className="relative">
               <div className="w-4 h-4 rounded-full bg-blue-600 shadow-lg ring-2 ring-white cursor-pointer hover:scale-125 transition-transform duration-300"></div>
               {/* Tooltip */}
@@ -58,7 +58,7 @@ const GlobalFootprint: React.FC = () => {
           </div>
 
           {/* Shanghai, China */}
-          <div className="absolute left-[81%] top-[26%] group z-10">
+          <div className="absolute left-[81%] top-[31%] group z-10">
             <div className="relative">
               <div className="w-4 h-4 rounded-full bg-blue-600 shadow-lg ring-2 ring-white cursor-pointer hover:scale-125 transition-transform duration-300"></div>
               {/* Tooltip */}
@@ -75,7 +75,7 @@ const GlobalFootprint: React.FC = () => {
           {/* --- MANUFACTURING SITES (ORANGE) --- */}
 
           {/* Shenzhen, China */}
-          <div className="absolute left-[79%] top-[33%] group z-10">
+          <div className="absolute left-[79%] top-[38%] group z-10">
             <div className="relative">
               <div className="w-4 h-4 rounded-full bg-orange-500 shadow-lg ring-2 ring-white cursor-pointer hover:scale-125 transition-transform duration-300"></div>
               {/* Tooltip */}
@@ -92,7 +92,7 @@ const GlobalFootprint: React.FC = () => {
           
 
           {/* Ho Chi Minh, Vietnam */}
-          <div className="absolute left-[79%] top-[39%] group z-10">
+          <div className="absolute left-[79%] top-[44%] group z-10">
             <div className="relative">
               <div className="w-4 h-4 rounded-full bg-orange-500 shadow-lg ring-2 ring-white cursor-pointer hover:scale-125 transition-transform duration-300"></div>
               {/* Tooltip */}
@@ -107,7 +107,7 @@ const GlobalFootprint: React.FC = () => {
           </div>
 
           {/* Malaysia */}
-          <div className="absolute left-[77%] top-[45%] group z-10">
+          <div className="absolute left-[77%] top-[49%] group z-10">
             <div className="relative">
               <div className="w-4 h-4 rounded-full bg-orange-500 shadow-lg ring-2 ring-white cursor-pointer hover:scale-125 transition-transform duration-300"></div>
               {/* Tooltip */}

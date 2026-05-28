@@ -85,9 +85,9 @@ const Hero: React.FC = () => {
 
       {/* Video Modal */}
       <VideoModal
-          isOpen={isVideoModalOpen}
-          onClose={() => setIsVideoModalOpen(false)}
-          videoSrc={`${import.meta.env.BASE_URL}assets/product.mp4`}
+        isOpen={isVideoModalOpen}
+        onClose={() => setIsVideoModalOpen(false)}
+        videoSrc={`${import.meta.env.BASE_URL}assets/product.mp4`}
       />
     </div>
   );

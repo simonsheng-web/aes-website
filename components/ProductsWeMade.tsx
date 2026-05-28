@@ -139,7 +139,7 @@ const ProductsWeMade: React.FC = () => {
             From industrial IoT to precision consumer optics, we deliver mass-produced solutions across a diverse range of high-tech categories.
           </p>
         </div>
-    
+
         {/* Grid Container */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {categories.map((cat, idx) => (
@@ -158,13 +158,7 @@ const ProductsWeMade: React.FC = () => {
               {/* Text Area */}
               <div className="w-full md:w-3/5 p-10 flex flex-col justify-center">
                 <h3 className="text-3xl font-semibold text-[#1d1d1f] mb-2 tracking-tight">{cat.title}</h3>
-                <p className="text-sm font-bold text-blue-600 uppercase tracking-widest mb-6 opacity-80">
-                  {cat.subtitle.split(" / ").map((line, idx) => (
-                    <span key={idx} className="block">
-                      {line}
-                    </span>
-                  ))}
-                </p>
+                <p className="text-sm font-bold text-blue-600 uppercase tracking-widest mb-6 opacity-80">{cat.subtitle}</p>
                 <p className="text-slate-500 text-sm leading-relaxed mb-8 max-w-sm">
                   {cat.description}
                 </p>
