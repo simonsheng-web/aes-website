@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
   }, []);
 
   return (
-    <div className="relative h-[95vh] min-h-[700px] flex items-center justify-center overflow-hidden font-sans">
+    <div className="relative h-[95vh] min-h-[700px] flex items-center justify-center overflow-hidden font-sans bg-gradient-to-b from-[#3b2414] via-[#6b3a1a] to-[#2a1a10]">
       
       <video
         className="absolute inset-0 w-full h-full object-cover z-0"
@@ -19,16 +19,21 @@ const Hero: React.FC = () => {
         loop
         muted
         playsInline
+        poster={`${import.meta.env.BASE_URL}assets/autumn-poster.jpg`}
       >
-        <source src={`${import.meta.env.BASE_URL}assets/index.mp4`} type="video/mp4" />
+        {/* Autumn hero: Pexels video 5563054 by Yaroslav Shuraev (Pexels License). Previous winter video: assets/index.mp4 */}
+        <source src={`${import.meta.env.BASE_URL}assets/autumn.mp4`} type="video/mp4" />
       </video>
+
+      {/* Readability overlay: autumn foliage is busy and bright, so darken edges behind nav + title */}
+      <div className="absolute inset-0 z-[1] pointer-events-none bg-gradient-to-b from-black/45 via-black/20 to-black/50"></div>
 
       {/* Background Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none z-[1]">
         {/* Enhanced Dynamic Glows */}
-        <div className="absolute top-[40%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[1000px] h-[600px] bg-blue-600/10 rounded-full blur-[140px] opacity-70 animate-pulse transition-opacity duration-[5000ms]"></div>
-        <div className="absolute -bottom-48 -right-48 w-[800px] h-[800px] bg-purple-900/10 rounded-full blur-[120px] opacity-50"></div>
-        <div className="absolute -top-48 -left-48 w-[600px] h-[600px] bg-blue-900/10 rounded-full blur-[100px] opacity-40"></div>
+        <div className="absolute top-[40%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[1000px] h-[600px] bg-orange-500/15 rounded-full blur-[140px] opacity-70 animate-pulse transition-opacity duration-[5000ms]"></div>
+        <div className="absolute -bottom-48 -right-48 w-[800px] h-[800px] bg-red-900/15 rounded-full blur-[120px] opacity-50"></div>
+        <div className="absolute -top-48 -left-48 w-[600px] h-[600px] bg-amber-700/15 rounded-full blur-[100px] opacity-40"></div>
 
         {/* Subtle Noise Texture */}
         <div
